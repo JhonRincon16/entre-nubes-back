@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EntreNubesBack.DAL\EntreNubesBack.DAL.csproj" />
+      <ProjectReference Include="..\EntreNubesBack.DTO\EntreNubesBack.DTO.csproj" />
+      <ProjectReference Include="..\EntreNubesBack.Models\EntreNubesBack.Models.csproj" />
+      <ProjectReference Include="..\EntreNubesBack.Utility\EntreNubesBack.Utility.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.27.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.27.0" />
+    </ItemGroup>
+
+</Project>
